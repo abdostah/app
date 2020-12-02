@@ -39,7 +39,7 @@
  .cart-nav{
   position: fixed;
   right: 0;
-  bottom: 20%;
+  bottom: 80%;
   transition: 0.4s;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
   padding:15px;
@@ -182,22 +182,22 @@ button:last-child:hover{
       display: none;
   }
 .content .row .details span{
-  font-size: 18px;
+  font-size: 13px;
 }
 .content .row .details p{
   color: #333;
-  font-size: 12px;
+  font-size: 11px;
 }
 .content .row .price{
   color: #ff7979;
-  font-size: 18px;
+  font-size: 15px;
 }
 .content .buttons{
   margin-top: 5px;
 }
 
 .content .buttons button{
-  font-size: 14px;
+  font-size: 11px;
 }
 
 
