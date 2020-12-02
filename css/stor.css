@@ -179,6 +179,22 @@ button:last-child:hover{
     .imaggg{
       display: none;
   }
+.content .row .details span{
+  font-size: 18px;
+}
+.content .row .details p{
+  color: #333;
+  font-size: 14px;
+}
+.content .row .price{
+  color: #ff7979;
+  font-size: 18px;
+}
+.content .buttons{
+  margin-top: 5px;
+}
+
+
   .diva{
     align-content: center;
     padding: 5px;
