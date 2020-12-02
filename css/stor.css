@@ -39,7 +39,7 @@
  .cart-nav{
   position: fixed;
   right: 0;
-  bottom: 10%;
+  bottom: 5%;
   transition: 0.4s;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
   padding:15px;
@@ -166,8 +166,8 @@ button:last-child:hover{
   
   }
   .card{
-      width: 100%;
-      margin: 20px 0;
+      width: 70%;
+      margin: 10px 0;
     }
     .cart-nav{
       
