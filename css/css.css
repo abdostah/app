@@ -624,7 +624,7 @@ button:hover{
 .wrapper{
 	width: 100%;
 	height: 700px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     margin-bottom: 20px;
 	border-radius: 60px;
 }
@@ -678,7 +678,7 @@ button:hover{
 }
 
 .wrapper .content{
-		width: 100%;
+	width: 100%;
 	height: 600px;
 	
 	border-radius: 10px;
