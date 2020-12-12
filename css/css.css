@@ -536,18 +536,17 @@ button:hover{
 	cursor: pointer;
 }
 
-.diva{
+  .diva{
     align-content: center;
-    padding: 10px;
-    margin: 20px;
-    background-color: rgb(218, 215, 221);
-    border-radius: 60px;
+    padding: 5px;
+   margin: 5px;
+ background-color: rgb(218, 215, 221);
 
 }
 .diva img{
     width: 100%;
-    padding: 60px;
-    border-radius: 60px;
+   border-radius: 60px;
+
 }
 .diva p{
   direction: rtl;
