@@ -433,9 +433,9 @@ footer .overlay{
 	width: 100%;
 	margin-top: 60px;
 	padding: 50px;
-	color: rgb(72, 88, 81);
+	color: rgb(52, 56, 54);
 	text-shadow: 1px 1px 1px #333;
-  background-image: linear-gradient( 135deg, #ccb6da69 10%, #7a513b6b 100%);
+ background-image: linear-gradient( 135deg, #17171869 10%, #0707746b 100%);
   text-align: center;
 	
 }
@@ -540,19 +540,19 @@ button:hover{
     align-content: center;
     padding: 10px;
     margin: 20px;
-    background-color: rgb(182, 151, 211);
+    background-color: rgb(218, 215, 221);
     border-radius: 60px;
 
 }
 .diva img{
     width: 100%;
-    padding: 20px;
+    padding: 60px;
 
 }
 .diva p{
   direction: rtl;
   font-size: 20px;
-  color: white;
+  color: rgb(39, 38, 38);
   font-family: 'Poppins', sans-serif;
   margin-right: 20px;
 }
@@ -623,9 +623,9 @@ button:hover{
 
 .wrapper{
 	width: 100%;
-	height: 650px;
+	height: 700px;
     padding-bottom: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 20px;
 	border-radius: 60px;
 }
 
@@ -679,7 +679,7 @@ button:hover{
 
 .wrapper .content{
 	width: 100%;
-	height: 500px;
+	height: 600px;
 	
 	border-radius: 10px;
 	
@@ -689,7 +689,7 @@ button:hover{
 .wrapper .content iframe{
 	width: 100%;
     
-    height: 500px;
+    height: 600px;
     
 } 
 
