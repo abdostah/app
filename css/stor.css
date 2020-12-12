@@ -205,11 +205,12 @@ button:last-child:hover{
     align-content: center;
     padding: 5px;
    margin: 5px;
+ background-color: rgb(218, 215, 221);
 
 }
 .diva img{
     width: 100%;
-   
+   border-radius: 60px;
 
 }
 .diva p{
