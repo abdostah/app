@@ -125,16 +125,17 @@ nav ul ul ul li{
   
     }
     .diva{
-      align-content: center;
-      padding: 5px;
-     margin: 5px;
-  
-  }
-  .diva img{
-      width: 50%;
-     
-  
-  }
+    align-content: center;
+    padding: 5px;
+   margin: 5px;
+ background-color: rgb(218, 215, 221);
+
+}
+.diva img{
+    width: 100%;
+   border-radius: 60px;
+
+}
   .diva h1{
    
     font-size: 30px;
