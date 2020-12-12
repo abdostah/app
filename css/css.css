@@ -128,7 +128,7 @@ nav ul ul ul li{
     align-content: center;
     padding: 5px;
    margin: 5px;
- background-color: rgb(218, 215, 221);
+  background-color: rgb(218, 215, 221);
 
 }
 .diva img{
@@ -541,7 +541,7 @@ button:hover{
   align-content: center;
   padding: 10px;
   margin: 20px;
-  background-color: rgb(182, 151, 211);
+   background-color: rgb(218, 215, 221);
   border-radius: 60px;
 
 }
