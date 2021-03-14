@@ -444,7 +444,9 @@ color: rgb(77, 136, 80);
   width:100%;
 }
 .barcolon{
-  width: 90%;
+   width: 100%;
+  margin-right: 10px;
+  text-align:center;
 }
 }
 
