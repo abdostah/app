@@ -292,14 +292,76 @@ nav ul ul ul li{
     border-radius: 10px;
 
 }
+.col{
+  float: left;
+  margin-bottom: 30px;
+  padding: 20px;
+  text-align: center;
+  width: 60%;
+  position: relative;
+ 
+}
+.coloncard{
+  width: 280px;
+  height: 280px;
+  display: inline-block;
+  border-radius: 10%;
+  padding: 5px 10px;
+  margin: 10px 10px;
+  cursor: pointer;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 5px 5px 5px rgba(75, 68, 68, 0.2);
+  transition: 0.5s;
+  
+  
+ 
 
+}
+
+.coloncard img{
+  width: 100%;
+  border-radius: 5%;
+  height: 150px;
+
+}
+.coloncard:hover{
+transform:translateY(-10px);
+color: rgb(77, 136, 80);
+}
+
+.barcolon{
+  float: right;
+  width: 30%;
+  margin-bottom: 20px;
+  margin-right: 60px;
+  padding-bottom: 7px;
+  text-align: justify;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  position: relative;
+ 
+
+}
+.barcolon h3 a{
+  text-decoration: none;
+  color: #1a1a1a;
+  box-shadow: 5px 5px  rgba(231, 227, 227, 0.2);
+
+}
+
+.barcolon h3 a:hover{
+  color: #9be2e2;
+
+}
 .container{
   padding: 0 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 200px;
-  
+  float: left;
 }
 .card{
   height: 280px;
@@ -378,6 +440,12 @@ nav ul ul ul li{
     max-width: 700px;
     margin: 20px 0;
   }
+ .col{
+  width:100%;
+}
+.barcolon{
+  width: 90%;
+}
 }
 
 
