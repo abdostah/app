@@ -16,7 +16,7 @@
   align-content: center;
   padding: 10px;
   margin: 20px;
-  background-color: rgb(182, 151, 211);
+   background-color: rgb(218, 215, 221);
   border-radius: 60px;
 
 }
@@ -40,8 +40,49 @@
   justify-content: space-between;
     
 }
+<<<<<<< HEAD
 
 .wrapperdz .card{
+=======
+ .cart-nav{
+  position: fixed;
+  right: 0;
+  bottom: 30%;
+  transition: 0.4s;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  padding:15px;
+  float: right;
+  margin: 0;
+  border-radius: 60px;
+  text-align: center;
+  
+}
+.cart-nav .icon-hard{
+  color: #06963d;
+}
+.cart-nav .icon-hard i{
+  font-size: 30px;
+}
+.cart-nav .icon-hard span{
+  font-weight: 500;
+}
+.cart-nav .icon-hard span a{
+  text-decoration: none;
+  color: #eb0b0b;
+}
+.cart-nav .item-count{
+  font-size: 20px;
+  height: 30px;
+  width: 50px;
+  color: #0d8517;
+  
+  text-align: center;
+  line-height: 22px;
+  border: 1px solid #ffb3b3;
+  border-radius: 50%;
+}
+.wrapper .card{
+>>>>>>> bde3e756ee5f386fe11a10bb3be0525600225138
   position: relative;
   height: 400px;
   max-width: 350px;
@@ -130,21 +171,44 @@ size: 17px;
     
   }
   .card{
-      width: 100%;
-      margin: 20px 0;
+      width: 70%;
+      margin: 10px 0;
+      height: 250px;
+
     }
     .imaggg{
       display: none;
   }
+.content .row .details span{
+  font-size: 13px;
+}
+.content .row .details p{
+  color: #333;
+  font-size: 11px;
+}
+.content .row .price{
+  color: #ff7979;
+  font-size: 15px;
+}
+.content .buttons{
+  margin-top: 5px;
+}
+
+.content .buttons button{
+  font-size: 11px;
+}
+
+
   .diva{
     align-content: center;
     padding: 5px;
    margin: 5px;
+ background-color: rgb(218, 215, 221);
 
 }
 .diva img{
     width: 100%;
-   
+   border-radius: 60px;
 
 }
 .diva p{
