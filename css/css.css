@@ -266,32 +266,7 @@ nav ul ul ul li{
 }
 
 
-.slider{
-    overflow: hidden;
-    height: 400px;
-    text-align: center;
-    background-color: lightsalmon;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    
 
-}
-.slider figure{
-    
-    position: relative;
-    width: 400%;
-    margin: 0;
-    left: 0;
-    animation: 18s slider infinite;
-}
-.slider figure img{
-    width: 25%;
-    float: left;
-    height: 400px;
-    object-fit: initial;
-    border-radius: 10px;
-
-}
 .col{
   float: left;
   margin-bottom: 30px;
@@ -318,52 +293,7 @@ nav ul ul ul li{
  
 
 }
-<<<<<<< HEAD
 
-.coloncard img{
-  width: 100%;
-  border-radius: 5%;
-  height: 150px;
-
-}
-.coloncard:hover{
-transform:translateY(-10px);
-color: rgb(77, 136, 80);
-}
-
-.barcolon{
-  float: right;
-  width: 30%;
-  margin-bottom: 100px;
-  margin-right: 60px;
-  padding-bottom: 7px;
-  text-align: justify;
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 14px;
-  line-height: 21px;
-  position: relative;
-  margin-top: 250px;
-
-  
- 
-}
-.barcolon h1{
-  border-bottom: 5px solid pink;
-  height: 50px;
-}
-.barcolon h3 a{
-  text-decoration: none;
-  color: #1a1a1a;
-  box-shadow: 5px 5px  rgba(231, 227, 227, 0.2);
-
-}
-
-.barcolon h3 a:hover{
-  color: #9be2e2;
-
-}
-=======
->>>>>>> bde3e756ee5f386fe11a10bb3be0525600225138
 
 .coloncard img{
   width: 100%;
@@ -419,11 +349,10 @@ color: rgb(77, 136, 80);
   align-content: center;
   margin-top: 100px;
   color: #b3e7c9;
-  
-=======
+
   margin-bottom: 200px;
   float: left;
->>>>>>> bde3e756ee5f386fe11a10bb3be0525600225138
+
 }
 
 .card{
