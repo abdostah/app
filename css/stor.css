@@ -25,57 +25,25 @@
   padding: 20px;
 
 }
-
-.wrapper{
-     
+.text-center{
+  margin: 20px;
+  font-family: 'Dancing Script', cursive;
+	font-size: 50px;
+	
+}
+.wrapperdz{
   float: left;
   margin-top: 50px;
-    padding: 20px;
-    display: block;
-    align-items: center;
-    justify-content: space-between;
+  padding: 20px;
+  display: block;
+  align-items: center;
+  justify-content: space-between;
     
 }
- .cart-nav{
-  position: fixed;
-  right: 0;
-  bottom: 10%;
-  transition: 0.4s;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
-  padding:15px;
-  float: right;
-  margin: 0;
-  border-radius: 60px;
-  text-align: center;
-  
-}
-.cart-nav .icon-hard{
-  color: #06963d;
-}
-.cart-nav .icon-hard i{
-  font-size: 30px;
-}
-.cart-nav .icon-hard span{
-  font-weight: 500;
-}
-.cart-nav .icon-hard span a{
-  text-decoration: none;
-  color: #eb0b0b;
-}
-.cart-nav .item-count{
-  font-size: 20px;
-  height: 30px;
-  width: 50px;
-  color: #0d8517;
-  
-  text-align: center;
-  line-height: 22px;
-  border: 1px solid #ffb3b3;
-  border-radius: 50%;
-}
-.wrapper .card{
+
+.wrapperdz .card{
   position: relative;
-  height: 280px;
+  height: 400px;
   max-width: 350px;
   margin: 20px;
   background: rgb(221, 228, 223);
@@ -84,7 +52,7 @@
   overflow: hidden;
   box-shadow: 4px 4px 10px 0px rgba(15, 179, 15, 0.15);
 }
-.wrapper .card img{
+.wrapperdz .card img{
   width: 100%;
   border-radius: 3px;
   transition: all 0.3s ease;
@@ -92,7 +60,7 @@
 .card:hover img{
   transform: scale(1.1);
 }
-.wrapper .card .content{
+.wrapperdz .card .content{
   position: absolute;
   width: 100%;
   bottom: -50%;
@@ -101,7 +69,7 @@
   box-shadow: 0px -3px 10px 0px rgba(0,0,0,0.15);
   transition: all 0.3s ease;
 }
-.wrapper .card:hover .content{
+.wrapperdz .card:hover .content{
   bottom: 0;
 }
 .card .content .row,
@@ -119,7 +87,7 @@
   font-weight: 400;
 }
 .content .row .price{
-  color: #ff7979;
+  color: #074607;
   font-size: 25px;
   font-weight: 600;
 }
@@ -133,30 +101,21 @@
   cursor: pointer;
   font-size: 17px;
   font-weight: 500;
-  border-radius: 3px;
-  border: 2px solid #ff7979;
+  border-radius: 5px;
+  border: 2px solid #f78787;
   text-transform: uppercase;
   transition: all 0.3s ease;
+  background: #60f184; 
 }
-.buttons button:first-child{
-  color: #ff7979;
-  margin-right: 10px;
-  background: #fff;
+.content .buttons button:hover{
+  background: #f12020;
+  transition:0.5s ease-in-out ;
 }
-button:first-child:hover{
-  color: #fff;
-  background: #ff7979;
+.content .buttons button a{
+text-decoration: none;
+color: rgb(9, 48, 4);
+size: 17px;
 }
-.buttons button:last-child{
-  color: #fff;
-  margin-left: 10px;
-  background: #ff7979;
-}
-button:last-child:hover{
-  background: #ff6666;
-  border-color: #ff6666;
-}
-
 @media screen and (max-width: 978px) {
   .wrapper{
     flex-wrap: wrap;
@@ -165,16 +124,14 @@ button:last-child:hover{
     width: 100%;
   
   }
+  .text-center{
+   
+    font-size: 25px;
+    
+  }
   .card{
       width: 100%;
       margin: 20px 0;
-    }
-    .cart-nav{
-      
-      margin: 0;
-  }
-  .cart-nav .icon-hard i{
-      font-size: 15px;
     }
     .imaggg{
       display: none;
@@ -201,8 +158,6 @@ button:last-child:hover{
 .viddd{
   display: none;
 }
-
-
 
 
 .botto{
@@ -263,6 +218,7 @@ h1 {
 	font-family: 'Dancing Script', cursive;
 	font-size: 50px;
 	margin-bottom: 30px;
+  margin: 20px;
 }
 
 .sada{

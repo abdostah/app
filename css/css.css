@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -125,16 +125,17 @@ nav ul ul ul li{
   
     }
     .diva{
-      align-content: center;
-      padding: 5px;
-     margin: 5px;
-  
-  }
-  .diva img{
-      width: 50%;
-     
-  
-  }
+    align-content: center;
+    padding: 5px;
+   margin: 5px;
+  background-color: rgb(218, 215, 221);
+
+}
+.diva img{
+    width: 100%;
+   border-radius: 60px;
+
+}
   .diva h1{
    
     font-size: 30px;
@@ -291,15 +292,96 @@ nav ul ul ul li{
     border-radius: 10px;
 
 }
+.col{
+  float: left;
+  margin-bottom: 30px;
+  padding: 20px;
+  text-align: center;
+  width: 60%;
+  position: relative;
+ 
+}
+.coloncard{
+  width: 280px;
+  height: 280px;
+  display: inline-block;
+  border-radius: 10%;
+  padding: 5px 10px;
+  margin: 10px 10px;
+  cursor: pointer;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 5px 5px 5px rgba(75, 68, 68, 0.2);
+  transition: 0.5s;
+  
+  
+ 
+
+}
+
+.coloncard img{
+  width: 100%;
+  border-radius: 5%;
+  height: 150px;
+
+}
+.coloncard:hover{
+transform:translateY(-10px);
+color: rgb(77, 136, 80);
+}
+
+.barcolon{
+  float: right;
+  width: 30%;
+  margin-bottom: 100px;
+  margin-right: 60px;
+  padding-bottom: 7px;
+  text-align: justify;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  position: relative;
+  margin-top: 250px;
+
+  
+ 
+}
+.barcolon h1{
+  border-bottom: 5px solid pink;
+  height: 50px;
+}
+.barcolon h3 a{
+  text-decoration: none;
+  color: #1a1a1a;
+  box-shadow: 5px 5px  rgba(231, 227, 227, 0.2);
+
+}
+
+.barcolon h3 a:hover{
+  color: #9be2e2;
+
+}
 
 .container{
   padding: 0 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
+  margin-top: 100px;
   
 }
+
+.container h1{
+  text-align: center;
+  border-bottom: 5px solid rgb(105, 206, 206);
+  position:relative;
+  align-content: center;
+  margin-top: 100px;
+  color: #b3e7c9;
+  
+}
+
 .card{
   height: 280px;
   max-width: 350px;
@@ -377,6 +459,15 @@ nav ul ul ul li{
     max-width: 700px;
     margin: 20px 0;
   }
+ .col{
+  width:100%;
+}
+.barcolon{
+   width: 100%;
+  margin-right: 10px;
+margin-left: 10px;
+  text-align:center;
+}
 }
 
 
@@ -433,9 +524,9 @@ footer .overlay{
 	width: 100%;
 	margin-top: 60px;
 	padding: 50px;
-	color: rgb(72, 88, 81);
+	color: rgb(52, 56, 54);
 	text-shadow: 1px 1px 1px #333;
-  background-image: linear-gradient( 135deg, #ccb6da69 10%, #7a513b6b 100%);
+ background-image: linear-gradient( 135deg, #17171869 10%, #0707746b 100%);
   text-align: center;
 	
 }
@@ -537,22 +628,22 @@ button:hover{
 }
 
 .diva{
-    align-content: center;
-    padding: 10px;
-    margin: 20px;
-    background-color: rgb(182, 151, 211);
-    border-radius: 60px;
+  align-content: center;
+  padding: 10px;
+  margin: 20px;
+   background-color: rgb(218, 215, 221);
+  border-radius: 60px;
 
 }
 .diva img{
-    width: 100%;
-    padding: 20px;
+  width: 100%;
+  padding: 20px;
 
 }
 .diva p{
   direction: rtl;
   font-size: 20px;
-  color: white;
+  color: rgb(39, 38, 38);
   font-family: 'Poppins', sans-serif;
   margin-right: 20px;
 }
@@ -565,7 +656,7 @@ button:hover{
   padding: 10px;
   box-shadow: 0 3px 20px 0 #1e1be03b;
   border-radius: 10px;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 
 }
 
@@ -604,7 +695,7 @@ button:hover{
 
 }
 .plusa-box :hover{
-  transform:scale(3.6);
+  transform:scale(4.6);
   z-index: 2;
   
 }
@@ -623,9 +714,9 @@ button:hover{
 
 .wrapper{
 	width: 100%;
-	height: 650px;
-    padding-bottom: 200px;
-    margin-bottom: 200px;
+	height: 700px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
 	border-radius: 60px;
 }
 
@@ -679,7 +770,7 @@ button:hover{
 
 .wrapper .content{
 	width: 100%;
-	height: 500px;
+	height: 600px;
 	
 	border-radius: 10px;
 	
@@ -689,7 +780,7 @@ button:hover{
 .wrapper .content iframe{
 	width: 100%;
     
-    height: 500px;
+    height: 600px;
     
 } 
 
